@@ -32,8 +32,6 @@ function scrollRight(scrollTop) {
   });
 }
 
-
-
 function get_editor_scroll() {
   var line_markers = $('article#preview > [data-source-line]');
   var lines = []; // logical line
@@ -142,8 +140,6 @@ function set_editor_scroll(preview_scroll) {
   var scrollTop = ((nextLine - lastLine) * preview_scroll.percentage + lastLine) * editor.renderer.lineHeight;
   scrollLeft(scrollTop);
 }
-
-
 
 var sync_preview = _.debounce(function() { // sync right with left
   if(layout.state.east.isClosed) {
