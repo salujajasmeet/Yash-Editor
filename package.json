@@ -1,0 +1,23 @@
+{
+  "name": "Yash",
+  "version": "1.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "markdown-core": "^0.4.9"
+  },
+  "keywords": [
+    "markdown",
+    "editor"
+  ],
+  "author": "Tyler Long",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylingsoft/markdown-plus.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
